@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fashion Tech</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    header {
+		background-color: #ccc;
+		font-family: Helvetica, sans-serif;
+	}
+	header > * {
+		margin: 0px;
+		padding-bottom: 3px;
+	}
+	header > a {
+		font-size: xx-large;
+		color: black;
+		text-decoration: none;
+		font-weight: 400;
+		padding-left: 4px;
+	}
+	.nav > a {
+		display: inline-block;
+		text-align: center;
+		width: 24%;
+		text-decoration: none;
+		color: blue;
+	}
+	.nav > a:visited {
+		color: blue;
+	}
+	@media screen and (max-width: 400px) {
+		.nav > a {
+			width: 49%;
+		}
+	}
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 900px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<header>
+ <a href="/">Fashiontech-Projects.se</a>
+  <div class="nav">
+    <a href="/brandman">Brandmän</a>
+    <a href="/byggare">Byggare</a>
+    <a href="/privatpersoner">Privatpersoner</a>
+  <a href="/poliser">Poliser</a>
+        </div>
+</header>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="polisglasogon.html">Polisglasögon</a></p>
+      <p><a href="skottsaker_jacka.html">Skottsäker Jacka</a></p>
+      <p><a href="jacka_med_flexibel_skarm.html">Jacka med flexibel skärm</a></p>
+      <p><a href="smartglasogon.html">Smartglasögon</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Smartglasögon</h1>
+      <h4>Målgrupp: Polis</h4>
+      <h4>Designer/Konstruktör: Alexander Issal</h4><img src="smartglasogon.jpg" alt="Smartglasögon" style ="float:right;width:280px;height:180px;">
+      <p>Glasögon med smart-funktioner som ska kunna visa information som t.ex sms, notiser, telefonsamtal, GPS i en lite utfällbar display på höger sidan av bågen. Glasögonen kommer att kommunicera med telefonen med hjälp av Bluetooth 4.0 från en Raspberry Pi Zero. Användaren kommer att navigera i hemskärmen av glasögonen med hjälp av röstkommandon och en knapp på vänstra sidan av bågen. <br> <br> På framsidan av glasögonen kommer det finnas två koppar-ledningar formade som prickar för att smidigt kunna ladda dem i ett speciellt fodral, utan att behöva plugga i en sladd. Prickarna är inte bara ur funktionalitet utan också för att glasögonen ska se snyggare ut. <br><br> Apputvecklare ska lätt kunna skapa egna appar för glasögonen för att anpassa dem till olika yrkesgrupper. Ett exempel kan vara när elektriker mäter spänningen i elskåp där de behöver vara uppmärksamma på både en multimeter och på var de sätter elektroderna. Glasögonen kan då kopplas via Bluetooth till vissa multimeter-verktyg för att visa spänningen i en liten display mitt åvanför högra ögat vilket gör det säkrare för dem. </p>
+      <br>
+      <h3><a href="arbetsbeskrivning_smartglasogon.html">Arbetsbeskrivning</a></h3>
+      <br>
+      <h3>Personlig Information</h3><img src="alexanderissal.jpg" alt="Alexander Issal" style="float:right;width:200px;height:240px;">
+      <p> Mitt namn är Alexander Issal och jag går tekniklinjen i Thoren Innovation School Helsingborg. På fritiden arbetar jag med kreativt skapande med bland annat 3D skrivare, CAD modellering, elektronik och programmering. Jag har skapat allt ifrån 3D utskrivna mekaniska urverk, en luftdriven motor, till RC-flygplan, och lock till läskburkar.  
+          <br>
+          <br> 
+          Mitt största intresse har alltid varit att lära mig mer om tekniska konstruktioner och mekanismer för att senare implementera dem i mina egna projekt. Min styrka har alltid varit att förstå mig på komplicerade maskinerier och egenskapen att väldigt lätt lära mig saker som jag tycker är roligt. Tyvärr så har jag även alltid haft svårigheter inom att lära mig saker som jag tycker är tråkiga vilket alltid har varit min största svaghet. Jag har alltid velat lära mig mer om olika metoder som används inom konstruktionen av t.ex telefoner eller klockor. Jag har än så länge inte planerat upp en tydlig plan för framtiden men jag har alltid siktat mot att bli ingenjör på grund av mitt intresse för teknik. </p>
+          
+      <h3><a href="index.html">Tillbaka</a></h3>
+    </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>©Webbutvecklare: Lucas</p>
+</footer>
+
+</body>
+</html>
